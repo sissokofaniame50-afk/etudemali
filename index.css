@@ -1,3 +1,4 @@
-body{ background-color: whitesmoke;}h1{text-align: center;text-transform: capitalize;color: rgb(56, 61, 47);font-style: italic;}.e{ padding: 5px ;background-color:burlywood;border: 3px solid rgb(208, 130, 29);
+@media(max-width:600px){ body{ background-color: rgb(204, 224, 230);font-size: 1.2rem;}}h1{text-transform: capitalize;color: rgb(56, 61, 47);font-style: italic;
+}.e{ padding: 5px ;border-bottom: 3px solid rgb(49, 47, 46);
 border-radius: 5px; margin:1px ;position: sticky;top: 0;}.b{ display: flex;list-style: none;gap: 20px;margin:auto;justify-content: flex-end;}li{color: blue;}.a{margin: auto;}.h3{text-align: center;}.ca{color: black;}.h4{text-align: center;}
-.img1{width: 100%;height: auto;margin: 10px;text-align: center;}
+img{max-width: 100%;height: auto;}.img1{display: flex;justify-items: center;justify-content: center;}
