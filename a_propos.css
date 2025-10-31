@@ -1,4 +1,4 @@
 @media(max-width:600px){ body{ background-color: rgb(204, 224, 230);font-size: 1.1rem;}}h1{text-align: center;}.e{background-color:rgb(223, 204, 178);border: 3px solid rgb(207, 188, 164); border-radius: 5px; width: 100%;
 max-width: 100%;padding: 10px;box-sizing: border-box;}
 .a{text-align: center;}table{max-width: 100%;border-collapse: collapse;overflow-x: auto;}th,td{border: 1px solid black;padding: 8px;text-align: left;}th{background-color: #f2f2f2;}tr:nth-child(even){background-color: #f9f9f9;}
-caption{font-size: large;}div{width: 100%;max-width: 100%;padding: 10px;box-sizing: border-box;}
+caption{font-size: large;}div{width: 100%;max-width: 100%;padding: 10px;box-sizing: border-box;overflow-x: auto;word-wrap: break-word;}
