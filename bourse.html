@@ -10,13 +10,13 @@
   gtag('config', 'G-NYVKJKMYGP');
 </script>
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="a_propos.css">
+    <link rel="stylesheet" href="bourse.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>à propos</title>
+    <title>verification-bourse</title>
 </head>
 <body>
-   <header>
+     <header>
         <div class="header-container">
             <img src="logo.jpg" alt="logo" id="logo">
             <nav>
@@ -31,30 +31,37 @@
                 </ul>
                 <div class="hamburger" id="hamburger">&#9776</div>
             </nav>
-        </div>
-    </header><br>
 
-    <section id="a-propos">
-        <h2>A propos d'EtudesMali</h2>
-        <p>
-            EtudesMali est une plateforme dédiée aux étudiants maliens pour les aider à naviguer dans l'enseignement supérieur.Nous fournissons des informations sur les 
-            universités, les bourses, et toutes les opportunités éducatives disponibles au Mali.
-        </p>
-        <h3>Notre mission:</h3>
-        <ul>
-            <li>Offrir des informations fiables et à jour sur l'enseignement supérieur au Mali</li>
-            <li>Faciliter l'accès aux bourses et aides pour les étudiants méritants</li>
-            <li>Promouvoir la réusssite académique et l'insertion professionnelle</li>
-            <li>Créer une communauté d'étudiants informés et connectés</li>
-        </ul>
-        <h3>Notre vision:</h3>
-        <p>
-            Construire un Mali où chaque étudiant peut accéder à une éducation de qualité et réaliser son potentiel, peu importe sa situation sociale ou géographique.
-        </p>
-    </section>
-   
+        </div>
+    </header>
+    
+    <main>
+        <h1>Verification-Bourse</h1>
+    <label for="moyenne">Moyenne du lycée :</label>
+    <input type="number" id="moyenne" step="0.01" min="0" max="20" placeholder="Entrez la moyenne ici...">
+    <label for="scolarite">Durée de la scolarité(années) :</label>
+    <select id="scolarite">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <label for="sexe">Sexe :</label>
+    <select id="sexe">
+        <option value="F">Femme</option>
+        <option value="M">Homme</option>
+    </select>
+    <label for="social">Cas social :</label><br><br>
+    <input type="checkbox" id="handicap">Handicap <br><br>
+    <input type="checkbox" id="orphelin">Orphelin de père ou mère <br><br>
+    <input type="checkbox" id="scientifique">Série scientifique (TSECO, TSE, TEXP, CF,STI,CGO...) <br><br>
+    <button id="verifier">Vérifier la Bourse</button><br><br>
+    <span id="n"></span>
+    <p id="result"></p>
+    </main>
     <script src="header.js"></script>
-    <footer id="footer">
+    <script src="bourse.js"></script>
+    
+     <footer id="footer">
         <p>
             &copy; 2025 EtudesMali-Développé par <strong>Faniamé Sissoko alias Addy</strong><br><small><a href="mailto:sissokofaniame50@gmail.com">sissokofaniame50@gmail.com</a></small>
         </p>

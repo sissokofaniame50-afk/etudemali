@@ -1,4 +1,4 @@
-@media(max-width:600px){ body{ background-color: rgb(204, 224, 230);font-size: 1.1rem;}}h1{text-align: center;}.e{background-color:rgb(223, 204, 178);border: 3px solid rgb(207, 188, 164); border-radius: 5px; width: 100%;
-max-width: 100%;padding: 10px;box-sizing: border-box;}
-.a{text-align: center;}table{max-width: 100%;border-collapse: collapse;overflow-x: auto;}th,td{border: 1px solid black;padding: 8px;text-align: left;}th{background-color: #f2f2f2;}tr:nth-child(even){background-color: #f9f9f9;}
-caption{font-size: large;}div{width: 100%;max-width: 100%;padding: 10px;box-sizing: border-box;overflow-x: auto;word-wrap: break-word;}
+#a-propos{max-width: 800px;margin: 30px auto;padding: 20px;background-color: #fff3e6;border-radius: 8px;box-shadow: 0 0 10px rgba(0, 0, 0,0.1);}#a-propos h2{text-align: center;
+color: #e65c00;margin-bottom: 15px;word-wrap: break-word;}#a-propos h3{color: #cc3300;margin-top: 15px;}#a-propos p{text-align: justify;line-height: 1.6;margin-bottom: 15px;}
+#a-propos ul{padding-left: 20px;}#a-propos ul li{margin-bottom: 8px;}#footer{background-color: #222;color: #eee;text-align: center;padding: 15px 10px;font-size: 14px;
+margin-top: 40px;position: relative;bottom: 0;width: 100%;box-sizing: border-box;}#footer strong{color: #ffa500;}a{color: #eee;}a:hover{color: #ffa500;}@media(max-width:600px){#a-propos{padding: 15px;margin: 15px auto;}#a-propos h2{font-size: 1.5rem;}}
